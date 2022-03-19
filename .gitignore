@@ -1,0 +1,13 @@
+.vscode
+.vscode/**
+
+bin
+bin/**
+
+build
+build/**
+
+.src/lib/glfw
+.src/lib/glfw/**
+.src/lib/glew
+.src/lib/glew/**

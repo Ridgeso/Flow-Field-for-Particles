@@ -1,5 +1,5 @@
 # Goal Based Pathfinding in OpenGL
-This program was written in C language, using OpenGL, GLFW and GLEW
+This program was written in C language, using OpenGL, GLFW and GLEW along with stb_image
 
 
 ### Requirements
@@ -12,12 +12,13 @@ This program was written in C language, using OpenGL, GLFW and GLEW
 
 
 ### Compilation
-- You should be able to compile it easily using **.bat** file on Windows or **.sh** if it is Linux
-- There is also `makefile` with targets:
-	> `build` - create a build folder with the makefile
-	> `main` - compile the application in Release mode
-	> `mainDebug` - compile the application in Debug mode
-	> `clean` - remove build and bin folder with all files to start over
+Download a project with the `--recursive` flag to get all sub-modules
+You should be able to compile it easily using **.bat** file on Windows or **.sh** if it is Linux
+There is also `makefile` with targets:
+>`build` - create a build folder with the makefile
+>`main` - compile the application in Release mode
+>`mainDebug` - compile the application in Debug mode
+>`clean` - remove build and bin folder with all files to start over
 
 
 ### Modules
@@ -28,7 +29,9 @@ These are added as 3rd party submodules.
 ### Buttons
 There are a few responsive program buttons:
 | KEY | Action |
-|-------------------|---------------------------------|
-|*[* and *]* |`creating and deleting particles`|
-|*K* and *L* |`particles size` |
-|*Left mouse button*|`adding or removing obstacles` |
+|-----|--------|
+|*[* and *]*|`creating and deleting particles`|
+|*K* and *L*|`particles size`|
+|*Left mouse button*|`adding or removing obstacles`|
+
+##### Font file comes from user [GameEngineering](https://github.com/GameEngineering) from repository [EP01_SandSim](https://github.com/GameEngineering/EP01_SandSim)

@@ -1,0 +1,9 @@
+[submodule "dependency/stb"]
+	path = dependency/stb
+	url = https://github.com/nothings/stb.git
+[submodule "dependency/glfw"]
+	path = dependency/glfw
+	url = https://github.com/glfw/glfw.git
+[submodule "dependency/glew"]
+	path = dependency/glew
+	url = https://github.com/Perlmint/glew-cmake.git

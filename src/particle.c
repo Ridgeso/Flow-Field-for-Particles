@@ -269,7 +269,7 @@ void drawGridArrow() {
 
         // cos(alpha) = dot(v, Y-axis) / (len(v) * len(Y-axis)) = v.y / len(v) ; where len(v) = 1.0
         float angle = acosf(arrowDirection->y);
-        if (arrowDirection->x < 0)
+        if (arrowDirection->x > 0)
             angle = 2*M_PI - angle;
         
         arrowVert[i*4 + 0].pos = rotate(arrowPoints[0], angle);
